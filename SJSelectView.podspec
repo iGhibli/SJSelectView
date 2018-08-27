@@ -17,7 +17,10 @@ Pod::Spec.new do |s|
 
   s.name         = "SJSelectView"
   s.version      = "0.0.1"
-  s.summary      = "A short description of SJSelectView."
+  s.summary      = "An easy way to use radio button."
+  s.description  = <<-DESC
+  					An easy way to use radio button.
+               		DESC
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -87,7 +90,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = 'SJSelectView/**/*.{h,m}'
+  s.source_files  = 'SJSelectView/*.{h,m}'
   #  s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
